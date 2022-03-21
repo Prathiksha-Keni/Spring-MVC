@@ -1,0 +1,13 @@
+Server - It is a computer which will provide resources.It understands only HTTP request 
+	 These resources are nothing but file i.e mp3,mp4,html,text,png,jpeg,xml etc.We use Apache Tomcat as web server
+
+Web HTTP Request :- https://localhost:8080/folderName/fileName	(We use localhost because the server is prestent in our local system with respective portNo)
+
+Resources are of 2 types :- 1) Static Resources
+			    2) Dynamic Resources
+
+1) Static Resources :- These are of fixed/constant type they can be accessed by HTTP Web Request
+
+2) Dynamic Resources :- These are of varying(not fixed)/not constant type they can be accessed by a set of programs/code.Here we use Servlet as a code in Java
+
+Servlet :- It is a Java object that is avaliable to interact with the UI(User Interface) 
