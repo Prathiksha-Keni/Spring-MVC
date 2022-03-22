@@ -10,7 +10,12 @@
 		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
 		<load-on-startup>2</load-on-startup>
 	</servlet>
-
+	
+	<servlet-mapping>
+		<servlet-name>applicationContext</servlet-name>
+		<url-pattern>/login</url-pattern>
+	</servlet-mapping>
+<!--  
 	<servlet-mapping>
 		<servlet-name>applicationContext</servlet-name>
 		<url-pattern>/one</url-pattern>
@@ -40,5 +45,5 @@
 		<servlet-name>applicationContext</servlet-name>
 		<url-pattern>/six</url-pattern>
 	</servlet-mapping>
-
+-->
 </web-app>
